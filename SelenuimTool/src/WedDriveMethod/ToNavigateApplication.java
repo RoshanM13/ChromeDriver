@@ -11,6 +11,6 @@ public class ToNavigateApplication {
 		// to see the execution
 		Thread.sleep(2000);
 		// to close browser
-		//driver.close();
+		driver.close();
 	}
 }
