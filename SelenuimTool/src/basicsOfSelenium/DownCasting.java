@@ -6,6 +6,7 @@ public static void main(String[] args) {
 	 * DownCasting : the process of converting Super class reference into child Class referencce
 	 * 
 	 * Advantance of downCasting : 
+	 * we can access the both parent and clild class menbers 
 	 */
 	Parent1 p = new Child1(); // upcasting
 	p.test();
@@ -13,9 +14,6 @@ public static void main(String[] args) {
 	Child1 c = (Child1)p ;
 	c.test(); // it is from parent class
 	c.verify(); // it is from the child class
-	
-	
-	
 	
 //	// typecasting operator ()
 //	int a = 65 ;
