@@ -17,6 +17,8 @@ public class Quit {
 		// to get the current url
 		String curl = dr.getCurrentUrl();
 		System.out.println(curl);
+		// to minimise 
+		dr.manage().window().minimize();
 		// to click on back
 		dr.navigate().back();
 		// to refresh the browser
